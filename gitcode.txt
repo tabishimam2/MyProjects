@@ -37,7 +37,7 @@ git
 23 git checkout -b  <name>																							 /* to create a new branch by the name given and to go into that branch */
 24. git checkout master/branchname																				/* to toggel between master and branch */
 25. git branch 																												/* to list the name of all branches */
-
+26. git merge <branch name>																							/* to merge branch with master*/
 
 
 
