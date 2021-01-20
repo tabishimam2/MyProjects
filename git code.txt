@@ -1,0 +1,32 @@
+git
+1. git init																			 /* to initialize th file as a git repository*/
+2a. git add user.name "username" 										/*to add username to git repository*/
+2b. git add user.eamil="usermail"									   /* to add user email to git repository*/
+3. git status																	  /* to check for if any changes that had happen after previous commit */
+4. git add ./-a																	 /* to add file in stagging area */
+5. git commit -m "commit message"								/* to commit the changes made in file into git repository*/
+6. git rm -f <filename>                                                   /* to delete file forcefully even if its in stagging area*/
+7. git rm --cached <filename>                                        /* to untract a fille from git  */
+8. git mv <old file name> <new file name>                    /* ti change file name*/
+9. git log                                                                    /*to show all commits*/
+10. git diff                                                                 /*to show the difference betwwen working tree and commit files*/   
+11. git log --pretty=oneline                                         /* to see all commit list in oneline*/
+12. git log --pretty=short                                          /*to see all commits in short*/
+13. git log --since= 2.days/weeks/months                /*fo veiwing the commits in last 2 days/weeks/month*/
+14. git log --pretty=format:"%h -- %an"                   /*to show the hash and name of author in formatted style */ 
+15. git commit --amend                                        /*to amend commits*/
+16. git restore --staged  <file name>                    /*to unstaged the file from stagging*/ 
+16a. (for linux)     git reset HEAD <filename>       /*to unstaged the file from stagging*/ 
+17. git checkout --<filname>                              /*to undo changes made in files after the previous commit*/ 
+18. git checkout -f                                            /* to make my working tree same as the last commit    i.e  all changes will be omited after that commit*/
+
+
+
+
+
+
+
+
+
+
+x. git rm -rf                                            /*remove git repository*/
