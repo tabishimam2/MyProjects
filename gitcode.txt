@@ -31,6 +31,13 @@ git
 	 19f.    	   taill ~/.ssh/id_ed25519.pub                                                                                 /* copy the content after runnig the code   to paste*/
 	 19g.       paste the content in shs keys in description section
 
+20. git push origin master -f																								/* to forcefully upload in remote git repository*/
+21 git remote 																													/* to check whether the remote repository exist or not*/
+22. git config --global alias.x xx                                                                                          /* to set alias/nickname( basically for own use) name for any git code as for example: force---> f ,status-->st */
+23 git checkout -b  <name>																							 /* to create a new branch by the name given and to go into that branch */
+24. git checkout master/branchname																				/* to toggel between master and branch */
+25. git branch 																												/* to list the name of all branches */
+
 
 
 
