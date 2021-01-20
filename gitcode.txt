@@ -38,6 +38,8 @@ git
 24. git checkout master/branchname																				/* to toggel between master and branch */
 25. git branch 																												/* to list the name of all branches */
 26. git merge <branch name>																							/* to merge branch with master*/
+27 git branch -d <branchname>																						/* throws error if not merged*/
+28 git branch -D <branchname>																					 /* delelte branch without warning ------> only after running code no. 27*/
 
 
 
@@ -45,5 +47,4 @@ git
 
 
 
-
-x. git rm -rf                                            /*remove git repository*/
+x.  rm -rf .git                                           /*remove git repository*/
