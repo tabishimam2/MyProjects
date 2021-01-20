@@ -21,6 +21,16 @@ git
 18. git checkout -f                                            /* to make my working tree same as the last commit    i.e  all changes will be omited after that commit*/
 
 
+19. open the github site and signup with your gmail (same you provide to create the git repository)-----> to generate  shs keys   goto setting and search for shs keys
+	19a.	ssh-keygen -t ed25519 -C "your_email@example.com"    /*to genrate the key*/
+	 19b.		Enter a file in which to save the key (/home/you/.ssh/id_ed25519): [Press enter]          /*just press enter to auto select the path*/
+	 19c.     > Enter passphrase (empty for no passphrase): [T ype a passphrase]                        /* either press enter  OR type any any passpharse in the section that you like*/
+				> Enter same passphrase again: [Type passphrase again]							            /*again press enter  OR type the same phrase again*/
+	 19d.         eval "$(ssh-agent -s)"																			            /* run to Start the ssh-agent in the background */
+	 19e.			ssh-add ~/.ssh/id_ed25519                                                                                /*Add your SSH private key to the ssh-agent.*/
+	 19f.    	   taill ~/.ssh/id_ed25519.pub                                                                                 /* copy the content after runnig the code   to paste*/
+	 19g.       paste the content in shs keys in description section
+
 
 
 
